@@ -1,0 +1,29 @@
+Name: libXft
+Summary: X.Org X11 libXft runtime library
+Description: |
+    Xft is a library that connects X applications with the FreeType font rasterization
+    library. 
+Version: 2.2.0
+Release: 1
+Group: System/Libraries
+License: MIT
+URL: http://www.x.org/
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
+Patches:
+    - 2.2.0-updates.patch
+
+PkgConfigBR:
+    - xproto
+    - x11
+    - xrender
+    - freetype2
+    - fontconfig
+Configure: configure
+SubPackages:
+    - Name: devel
+      Summary: Development components for the libXft library
+      Description: |
+          xft Development Librariy files 
+      Group: Development/Libraries
+

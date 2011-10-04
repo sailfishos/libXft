@@ -1,0 +1,28 @@
+* Mon Jun 13 2011 Liu, Xinyun <xinyun.liu@intel.com> - 2.2.0
+- Picked up fix for x11perf and glyph. Aligned to git d274ffc91b
+
+* Mon Jun 13 2011 Liu, Xinyun <xinyun.liu@intel.com> - 2.2.0
+- Updated to 2.2.0
+
+* Thu Jun 24 2010 Li Peng <peng.li@intel.com> - 2.1.14
+- Add %doc for man pages
+
+* Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 2.1.14
+- Updated with latest spectacle
+- Include YAML file in source rpm
+
+* Fri Dec 11 2009 Li Peng <peng.li@intel.com> 2.1.14
+- update to 2.1.14
+
+* Fri Dec 19 2008 Peng Li <peng.li@intel.com> 2.1.13
+- update to 2.1.13
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 2.1.12
+- Update spec file using latest spec-builder
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 2.1.12
+- Update spec file using latest spec-builder
+
+* Thu Dec 04 2008 Arjan van de Ven <arjan@linux.intel.com> 2.1.12
+- Clean up the specfile
+
